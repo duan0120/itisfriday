@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "It is Friday?",
-  description: "Is it Friday?",
+  description: "Check if it is Friday? The best day of the week!",
 };
 
 export default function RootLayout({
