@@ -2,6 +2,7 @@ import Link from "next/link";
 export default function Home() {
 
   const itIsFriday = () => {
+    console.log(new Date());
     switch (new Date().getDay()) {
       case 4:
         return 'Soon';
