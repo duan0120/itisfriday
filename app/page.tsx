@@ -3,6 +3,7 @@ export default function Home() {
 
   const itIsFriday = () => {
     console.log(new Date());
+    debugger;
     switch (new Date().getDay()) {
       case 4:
         return 'Soon';
