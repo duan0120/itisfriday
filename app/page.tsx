@@ -2,8 +2,6 @@ import Link from "next/link";
 export default function Home() {
 
   const itIsFriday = () => {
-    console.log(new Date());
-    debugger;
     switch (new Date().getDay()) {
       case 4:
         return 'Soon';
@@ -25,6 +23,8 @@ export default function Home() {
         <Link href="https://www.memora.top">Memora</Link>
         <span className="mx-2">•</span>
         <Link href="https://www.blackscreennow.space">Black Screen</Link>
+        <span className="mx-2">•</span>
+        <span className="mx-2">{Date()}</span>
       </footer>
     </div>
   );
