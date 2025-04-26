@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "It is Friday?",
-  description: "Check if it is Friday? The best day of the week!",
+  title: "Is It Friday Yet? Fun Friday Checker Tool",
+  description: "Check if it's Friday with our fun tool! Find out if the best day of the week is here. Perfect for Friday lovers!",
 };
 
 export default function RootLayout({
