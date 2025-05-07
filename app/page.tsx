@@ -50,7 +50,7 @@ export default function Home() {
         <h1 className="text-8xl font-bold">{isFriday || "No"}</h1>
       </main>
       <footer className="py-4 flex items-center justify-center">
-        <Link href="https://blog.crazykids.tech" className="text-center">© CrazyKids Studio</Link>
+        <Link href="https://www.crazykids.tech" className="text-center">© CrazyKids Studio</Link>
         <span className="mx-2">•</span>
         <Link href="https://www.memora.top">Memora</Link>
         <span className="mx-2">•</span>
